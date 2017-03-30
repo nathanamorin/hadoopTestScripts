@@ -1,0 +1,37 @@
+create table Accident
+(
+Accident_Index VARCHAR,
+Location_Easting_Osgr VARCHAR,
+Location_Northing_OSGR VARCHAR,
+Longitude DECIMAL(20,15),
+Latitude DECIMAL(20,15),
+Police_Force integer,
+Accident_Severity integer,
+Number_of_Vehicles integer,
+Number_Of_Casualties integer,
+DateStr VARCHAR,
+Day_Of_Week integer,
+Timestr VARCHAR,
+Local_Authority_District VARCHAR,
+Local_Authority_Highway VARCHAR,
+Road_Class_1st integer,
+Road_Number_1st integer,
+Road_Type integer,
+Speed_limit integer,
+Junction_Control integer,
+Junction_Detail integer,
+Road_Class_2nd integer,
+Road_Number_2nd integer,
+Ped_Crosshuman_Control integer,
+Ped_CrossPhysical_Facility integer,
+Light_Conditions integer,
+Weather_Conditions integer,
+Road_Surface_Conditions integer,
+Special_Conditions_at_Site integer,
+Carriageway_Hazards integer,
+Urban_Or_Rural_Area integer,
+Police_Officer_At_Scene integer,
+LSOA_of_Accident_Location VARCHAR
+
+CONSTRAINT pk PRIMARY KEY (Accident_Index)
+)
